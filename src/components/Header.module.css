@@ -1,0 +1,15 @@
+/** @format */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  padding-top: 1em;
+  margin-left: 23em;
+}
+
+.social a {
+  padding-left: 10px;
+}

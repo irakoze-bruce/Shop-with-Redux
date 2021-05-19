@@ -1,0 +1,10 @@
+/** @format */
+
+.ProductDetail {
+  margin-top: 3.5em;
+  overflow: hidden;
+}
+
+.image {
+  width: 350px;
+}

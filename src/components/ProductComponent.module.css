@@ -1,0 +1,20 @@
+/** @format */
+
+.ProductComponent {
+  display: flex;
+  margin-top: 5em;
+  justify-content: space-between;
+  box-shadow: 1px 1px 8px #888888;
+  width: 250px;
+  overflow: hidden;
+  align-items: center;
+  margin-left: 2em;
+  text-align: center;
+}
+
+.ProductComponent:hover div {
+  color: gray;
+}
+.image img {
+  width: 100px;
+}

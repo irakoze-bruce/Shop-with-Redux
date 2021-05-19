@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import Axios from "axios";
+import style from "./ProductDetail.module.css";
 import { useParams } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import {
@@ -39,16 +40,16 @@ function ProductDetail(props) {
     };
   }, [productId]);
   return (
-    <div className='ui grid container'>
+    <div className={style.ProductDetail}>
       {Object.keys(product).length === 0 ? (
         <div>...Loading</div>
       ) : (
         <div className='ui placeholder segment'>
           <div className='ui two column stackable center aligned grid'>
-            <div className='ui vertical divider'>AND</div>
+            <div className='ui vertical divider'></div>
             <div className='middle aligned row'>
               <div className='column lp'>
-                <img className='ui fluid image' src={image} alt={title} />
+                <img className={style.image} src={image} alt={title} />
               </div>
               <div className='column rp'>
                 <h1>{title}</h1>

@@ -17,6 +17,15 @@ function App() {
           <Route>404 not Found!!</Route>
         </Switch>
       </Router>
+
+      <a
+        href='https://wa.me/+25779335848'
+        className='whatsapp_float'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <i class='fa fa-whatsapp whatsapp-icon'></i>
+      </a>
     </div>
   );
 }
